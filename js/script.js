@@ -1,13 +1,10 @@
-
+ $(document).ready(function(){
+   $("#phone").mask("+7 (999) 999-99-99");
+}); 
 
 
 function show ()
-{
-  $(document).ready(function(){
-   $("#phone").mask("+7 (999) 999-99-99");
-   
-}); 
-   
+{  
 var elem = document.getElementById()
 if (elem)
 elem.style.display="block";
